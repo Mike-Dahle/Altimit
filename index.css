@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.hero-img {
+    position: absolute;
+    
+}
+
+nav {
+    position: fixed;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 2.5rem;
+}
+
+nav h1 {
+    font-size: 1.5rem;
+    color: white;
+    margin-right: 1rem;
+    padding: 0;
+}
+
+nav h2 {
+    font-size: 1rem;
+    color: white;
+}
+
+
+body {
+    background: no-repeat url(/Images/ALTIMIT\ ONLINE\ HOME.jpg);
+}
+
+.navBar {
+    text-align: center;
+    position: absolute;
+    min-height: 100vh;
+    width: 5rem;
+    background-color: #ffffff66;
+    color: black;
+    margin-left: 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navBar:hover {
+    background-color: #ffffff99;
+}
+
+.navBar div {
+    margin: 3rem 0;
+    padding: 1rem 0;
+}
+
+.navBar div:hover {
+    background-color: #ff9e2f66;
+}
+
+h1 {
+    padding-top: 1rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+}
+
